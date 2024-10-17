@@ -1,16 +1,36 @@
-function calcular1() {
-let nota1, nota2, resultado;
+function calcular(){
 
-nota1 = document.getElementById('txt_var1').value;
-nota2 = document.getElementById('txt_var2').value;
-nota3 = document.getElementById('txt_var3').value;
+let nota1, nota2, nota3, resultado;
 
-nota1= Number(nota1)
-nota2= Number(nota2)
-nota3 = Number(nota3)
+nota1 = document.getElementById('txt_nota1').value;
+nota2 = document.getElementById('txt_nota2').value;
+nota3 = document.getElementById('txt_nota3').value;
 
-resultado = (nota1 + nota2 + nota3)/3;
+nota1 = Number(nota1);
+nota2 = Number(nota2);
+nota3 = Number(nota3);
 
-document.getElementById('p').innerHTML = (resultado);
+
+
+resultado = (nota1 + nota2 + nota3) / 3;
+
+
+if(resultado >=6) {
+document.getElementById('p').textContent = ('Passou' +""+ resultado);
+}
+
+
+else {document.getElementById('p').textContent = ('Não Passou' +""+ resultado);
 
 }
+
+
+
+
+
+
+
+
+}
+
+

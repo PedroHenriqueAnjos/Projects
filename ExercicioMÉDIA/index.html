@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<body>
-   <div class="center">
-        <h1>Calcule a média</h1>
-       Digite a nota:<input type="text" name="" id="txt_var1"><br><br>
-       Digite a nota:<input type="text" name="" id="txt_var2"><br><br>
-       Digite a nota:<input type="text" name="" id="txt_var3"><br><br>
-       Resultado : <span id="p"></span><br>
-        <button onclick="calcular1()">Calcular </button>
-   </div>
+<body>  
+                            
+<br><br>
+<main>
+        <h1>Calcule sua Nota</h1>
+        Nota 1:<input type="text" name="" id="txt_nota1" placeholder="Insira sua nota"><br><br>
+        Nota 2:<input type="text" name="" id="txt_nota2" placeholder="Insira sua nota"><br><br>
+        Nota 3:<input type="text" name="" id="txt_nota3" placeholder="Insira sua nota"><br><br>
+        <button onclick="calcular()">Calcule</button>
+
+        <h1>Média: <span id="p">0.00</span></h1>
+</main>
+
+
 </body>
 </html>
