@@ -1,0 +1,71 @@
+body {
+    background-image: url(fotos.img/EB.png);
+    backdrop-filter: blur(4px);
+    height: 100vh;
+    margin: 0px;
+}
+
+main {
+    margin-top: 100px;
+margin-left: 500px;
+text-align: center;
+background-color: white;
+border: solid greenyellow 2px ;
+border-radius: 20px;
+height: 300px;
+width: 400px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+footer {
+    background-color:rgb(255, 255, 255) ;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    font-size: small;
+}
+
+footer>img {
+    height: 100px;
+    width: 80px;
+}
+
+footer>h1 {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 10px;
+margin-top: 40px;
+text-align: center;
+}
+
+
+
+input {
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+option {
+    margin-left: 5px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.logo1 {
+    height: 100px;
+    width: 80px;
+}
+
+.logo2 {
+    height: 100px;
+    width: 200px;
+}
+
+.Line {
+    font-size: xx-large;
+}
+
+.slogan {
+    margin-top: 40px;
+}
