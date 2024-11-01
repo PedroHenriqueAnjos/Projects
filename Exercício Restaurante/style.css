@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: midnightblue;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 90vw;
+    
+    
+
+}
+
+.centro {
+
+    text-align: center;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+input{
+    border-radius: 5px;
+    width: 35%;
+    height: 8%;
+    border:solid     dodgerblue 0.5px;
+}
+
+button {
+    border:solid dodgerblue 0.5px;
+    height: 12%;
+    text-decoration: none;
+    width: 35%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    height: 14%;
+   
+}
